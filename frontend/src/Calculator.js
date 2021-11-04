@@ -62,7 +62,7 @@ const CalcKeypad = styled.section`
         border-radius: var(--radius);
         user-select: none;
         transition: filter 0.2s ease-out;
-        
+
         &:hover{
         filter: brightness(90%);
 
@@ -114,6 +114,9 @@ const Calculator = () => {
 
             case '+ / -':
                 setDisplayValue(String(Number(DisplayValue) * -1))
+
+                // if (CurrentValue)
+                //     setCurrentValue(p => p = p * -1)
                 break
 
             case 'Betöltés':
