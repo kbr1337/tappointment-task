@@ -108,7 +108,7 @@ const Calculator = () => {
     const isOpeariton = (btn) => (btn === '%' || btn === '/' || btn === '+' || btn === '-' || btn === '*' || btn === '=')
 
     const HandleButton = async (e, btn) => {
-        e.preventDefault()
+
 
         switch (btn) {
 
